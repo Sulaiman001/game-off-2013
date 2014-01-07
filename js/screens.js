@@ -552,7 +552,7 @@ function ScoreScreen( stage, gameState ){
 		outerConditionText.x = 310;
 		outerConditionText.y = 320;
 
-		var coreConditionText = new createjs.Text( coreScoreChart[  turkeyState.skin.cond[2] ], "20px Arial", "black" );
+		var coreConditionText = new createjs.Text( coreScoreChart[  turkeyState.core.cond[2] ], "20px Arial", "black" );
 		coreConditionText.x = 310;
 		coreConditionText.y = 340;
 
